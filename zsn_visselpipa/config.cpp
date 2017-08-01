@@ -1,9 +1,3 @@
-////////////////////////////////////////////////////////////////////
-//DeRap: Produced from mikero's Dos Tools Dll version 5.24
-//Produced on Sun Feb 12 15:05:48 2017 : Created on Sun Feb 12 15:05:48 2017
-//http://dev-heaven.net/projects/list_files/mikero-pbodll
-////////////////////////////////////////////////////////////////////
-
 #define _ARMA_
 
 class CfgPatches
@@ -13,7 +7,7 @@ class CfgPatches
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 1;
-		requiredAddons[] = {};
+		requiredAddons[] = {"ace_common"};
 	};
 };
 class Extended_PostInit_EventHandlers
