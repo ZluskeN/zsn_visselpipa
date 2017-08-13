@@ -10,6 +10,9 @@ Make sure pboproject and any dependencies are installed from https://armaservice
 Double click build.bat to generate pbo files in @zsn_visselpipa.
 Check zsn_visselpipa/temp for build logs.
 
+Any private keys in the root Keys folder will be used to sign the PBOs.
+Any public keys in the root Keys folder will be copied to the mod folder.
+
 ## Build on Jenkins
 
 Project uses Jenkinsfile to define build steps.
