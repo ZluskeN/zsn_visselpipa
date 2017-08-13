@@ -19,3 +19,5 @@ Project uses Jenkinsfile to define build steps.
 Add the repository or organization to Jenkins as a pipeline job and it should pick it up automatically.
 
 It requires a node with the label "mikero" and pboproject must be available in PATH
+
+To enable signing of PBOs, make sure a credential secret file ZLUSKEN_PRIVATE_KEY and ZLUSKEN_PUBLIC_KEY is available.
