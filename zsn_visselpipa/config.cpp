@@ -136,9 +136,9 @@ class CfgSounds
 };
 class CfgFunctions
 {
-	class zsn_visselpipa
+	class ZSN
 	{
-		class functions
+		class Functions
 		{
 			file = "zsn_visselpipa\functions";
 			class whistleInit
