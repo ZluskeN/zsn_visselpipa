@@ -88,49 +88,49 @@ class CfgSounds
 	class zsn_whistledash1
 	{
 		name = "zsn_whistledash";
-		sound[] = {"\zsn_visselpipa\Thunderer580dash.ogg",1,1,3200};
+		sound[] = {"\zsn_visselpipa\Thunderer580dash.ogg",1,1,1600};
 		titles[] = {};
 	};
 	class zsn_whistledot1
 	{
 		name = "zsn_whistledot";
-		sound[] = {"\zsn_visselpipa\Thunderer580dot.ogg",1,1,3200};
+		sound[] = {"\zsn_visselpipa\Thunderer580dot.ogg",1,1,1600};
 		titles[] = {};
 	};
 	class zsn_whistleblow2
 	{
 		name = "zsn_whistleblow";
-		sound[] = {"\zsn_visselpipa\thunderer585.ogg",1,1,3200};
+		sound[] = {"\zsn_visselpipa\thunderer585.ogg",1,1,1600};
 		titles[] = {};
 	};
 	class zsn_whistleblow3
 	{
 		name = "zsn_whistleblow";
-		sound[] = {"\zsn_visselpipa\thunderer595.ogg",1,1,3200};
+		sound[] = {"\zsn_visselpipa\thunderer595.ogg",1,1,1600};
 		titles[] = {};
 	};
 	class zsn_whistleblow4
 	{
 		name = "zsn_whistleblow";
-		sound[] = {"\zsn_visselpipa\thunderer605.ogg",1,1,3200};
+		sound[] = {"\zsn_visselpipa\thunderer605.ogg",1,1,1600};
 		titles[] = {};
 	};
 	class zsn_whistleblast2
 	{
 		name = "zsn_whistleblast";
-		sound[] = {"\zsn_visselpipa\thunderer585blast.ogg",1,1,3200};
+		sound[] = {"\zsn_visselpipa\thunderer585blast.ogg",1,1,1600};
 		titles[] = {};
 	};
 	class zsn_whistleblast3
 	{
 		name = "zsn_whistleblast";
-		sound[] = {"\zsn_visselpipa\thunderer595blast.ogg",1,1,3200};
+		sound[] = {"\zsn_visselpipa\thunderer595blast.ogg",1,1,1600};
 		titles[] = {};
 	};
 	class zsn_whistleblast4
 	{
 		name = "zsn_whistleblast";
-		sound[] = {"\zsn_visselpipa\thunderer605blast.ogg",1,1,3200};
+		sound[] = {"\zsn_visselpipa\thunderer605blast.ogg",1,1,1600};
 		titles[] = {};
 	};
 };
