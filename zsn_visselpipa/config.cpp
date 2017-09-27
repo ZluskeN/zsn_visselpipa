@@ -140,9 +140,9 @@ class CfgFunctions
 	{
 		class Functions
 		{
-			file = "zsn_visselpipa\functions";
 			class whistleInit
 			{
+				file = "zsn_visselpipa\functions\fn_whistleInit.sqf";
 				postInit = 1;
 			};
 		};
