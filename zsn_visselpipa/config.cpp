@@ -57,7 +57,7 @@ class CfgVehicles
         	vehicleClass = "Items";
 		class TransportItems
 		{
-			class _xx_ZSN_Whistle
+			class ZSN_Whistle
 			{
 				name = "ZSN_Whistle";
 				count = 1;
@@ -68,15 +68,15 @@ class CfgVehicles
 class CfgWeapons
 {
 	class ACE_ItemCore;
-	class InventoryItem_Base_F;
+    	class CBA_MiscItem_ItemInfo;
 	class ZSN_Whistle: ACE_ItemCore
 	{
-		author = "ZluskeN";
 		scope = 2;
+		author = "ZluskeN";
 		displayName = "Whistle";
 		descriptionShort = "Invented in 1884, the Acme Thunderer and its variations has become the world's best-selling whistle.";
 		picture = "\zsn_visselpipa\visselpipa.paa";
-		class ItemInfo: InventoryItem_Base_F
+		class ItemInfo: CBA_MiscItem_ItemInfo
 		{
 			mass = 1;
 		};
