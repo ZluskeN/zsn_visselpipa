@@ -16,7 +16,10 @@ if not defined DSSIGNFILEPATH echo "Arma 3 Tools does not seem to be installed, 
 
 REM Build pbo files using pboproject and check for errors
 pboproject +Clean -Engine=Arma3 -Key -Workspace=P:\ -Noisy -P +Mod="%modpath%\@zsn_visselpipa" -R -Z P:\zsn_visselpipa
-if %errorlevel% neq 0 exit /b %errorlevel%
+if %errorlevel% neq 0 (
+	type "temp\*.log"
+	exit /b %errorlevel%
+)
 
 if defined DSSIGNFILEPATH (
 	mkdir @zsn_visselpipa\Keys > nul 2> nul
